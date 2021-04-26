@@ -1,0 +1,13 @@
+.container {
+    width: 20%;
+    margin: 0 auto;
+}
+
+button {
+    background-color: #7de0b5;
+    margin: 5px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 2px 3px #8d8d8d;
+}
