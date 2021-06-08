@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Async-Await Homework</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script type="text/javascript" src="asyncAwait.js"></script>
+    <script>
+        async function loadScript() {
+            let module = await import('./dynamicImports.js');
+            module.helloWorld();
+        }
+    </script>
+</head>
+<body>
+<div class="container">
+<button onclick={loadData()}>Load data</button>
+<button onclick={loadScript()}>Hello world</button>
+</div>
+</body>
+</html>
